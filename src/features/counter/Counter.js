@@ -29,6 +29,7 @@ export function Counter() {
           placeholder="Enter Value"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
+          type="number"
         />
         {amount && (
           <select onClick={(e) => changeHandler(e)}>
